@@ -14,4 +14,8 @@ if (secondH2 && thirdH2) {
   thirdH2.textContent = tempText;
 }
 
+const lastSection = document.querySelector('section:last-of-type');
 
+if (lastSection) {
+  lastSection.remove();
+}

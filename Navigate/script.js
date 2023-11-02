@@ -5,7 +5,6 @@ if (olElement) {
   olElement.insertBefore(lastListItem, olElement.firstElementChild);
 }
 
-
 const secondH2 = document.querySelector('section:nth-of-type(2) h2');
 const thirdH2 = document.querySelector('section:nth-of-type(3) h2');
 
@@ -14,3 +13,5 @@ if (secondH2 && thirdH2) {
   secondH2.textContent = thirdH2.textContent;
   thirdH2.textContent = tempText;
 }
+
+
